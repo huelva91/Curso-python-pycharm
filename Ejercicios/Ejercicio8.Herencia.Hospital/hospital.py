@@ -21,7 +21,7 @@ class Persona:
 
 class Doctor(Persona):
     def __init__(self, id, nombre, apellidos, especialidad):
-        super().__init__(self, id, nombre, apellidos)
+        Persona.__init__(self, id, nombre, apellidos)
         self.especialidad = especialidad
 
     def fichar(self):
@@ -41,7 +41,7 @@ class Doctor(Persona):
 
 class Enfermeros(Persona):
     def __init__(self, id, nombre, apellidos, planta):
-        super().__init__(self, id, nombre, apellidos)
+        Persona.__init__(self, id, nombre, apellidos)
         self.planta = planta
 
     def fichar(self):
@@ -50,7 +50,7 @@ class Enfermeros(Persona):
 
 class Pacientes(Persona):
     def __init__(self,  id, nombre, apellidos, sintomas, enfermedades):
-        super().__init__(self, id, nombre, apellidos)
+        Persona.__init__(self, id, nombre, apellidos)
         self.sintomas = sintomas
         self.enfermedades = enfermedades
 
@@ -58,7 +58,7 @@ class Pacientes(Persona):
 
 class Enfermos(Persona):
     def __init__(self, id, nombre, apellidos, enfermedad):
-        super().__init__(self, id, nombre, apellidos)
+        Persona.__init__(self, id, nombre, apellidos)
         self.enfermedad = enfermedad
         self.habitacion = None
 
