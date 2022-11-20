@@ -1,17 +1,37 @@
 import random
 
 class Hospital():
-    pass
+    def __init__(self, doctores, enfermeros, salas_espera, consultas, habitaciones):
+        self.doctor = doctores
+        self.enfermeros = enfermeros
+        self.pacientes = []
+        self.enfermos = []
+        self.sala_esper = salas_espera
+        self.consultas = consultas
+        self.habitaciones = habitaciones
+
+
+
 class Sala_espera:
     def __int__(self, id, espacios_disponibles):
         self.id = id
         self.espacios_disponibles = espacios_disponibles
         self.paciente = []
+
+
 class Cosulta:
     def __init__(self, id, doctor):
         self.id = id
         self.doctor = doctor
         self.pacientes = []
+
+class Habitacion:
+    def __init__(self, id, ocupada = False):
+        self.id = id
+        self.ocupada = ocupada
+        self.enfermo = None
+
+
 class Persona:
     def __init__(self, id, nombre, apellidos):
         self.id = id
@@ -25,10 +45,10 @@ class Doctor(Persona):
         self.especialidad = especialidad
 
     def fichar(self):
-        print("El doctor/a {} acaba de fichar", format(self.nombre))
+        print("El doctor/a {} acaba de fichar".format(self.nombre))
 
     def diagnosticar_paciente(self, doctor, paciente):
-        enfermedades = ["Viruela", "Ebola",  "Sarampion"]
+        enfermedades = ["Viruela", "Ebola", "Sarampion"]
         numero_aleatorio_gravedad = random.randint(1, 10)
 
         if numero_aleatorio_gravedad > 7:
@@ -45,15 +65,14 @@ class Enfermeros(Persona):
         self.planta = planta
 
     def fichar(self):
-        pass
+        print("El enfermero/a {} acaba de fichar".format(self.nombre))
 
 
 class Pacientes(Persona):
-    def __init__(self,  id, nombre, apellidos, sintomas, enfermedades):
+    def __init__(self, id, nombre, apellidos, sintomas, enfermedades):
         Persona.__init__(self, id, nombre, apellidos)
         self.sintomas = sintomas
         self.enfermedades = enfermedades
-
 
 
 class Enfermos(Persona):
@@ -61,5 +80,3 @@ class Enfermos(Persona):
         Persona.__init__(self, id, nombre, apellidos)
         self.enfermedad = enfermedad
         self.habitacion = None
-
-
