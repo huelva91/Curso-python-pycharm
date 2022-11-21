@@ -14,8 +14,8 @@ if __name__ == '__main__':
     pacientes2 = Pacientes("Sangrado", 5, "Juan", "Garcia Perez", enfermedades="")
     pacientes = [pacientes1, pacientes2]
 
-    consulta1 = Cosulta(1, doctor1)
-    consulta2 = Cosulta(2, doctor2)
+    consulta1 = Consulta(1, doctor1)
+    consulta2 = Consulta(2, doctor2)
     consultas = [consulta1, consulta2]
 
     habitacion1 = Habitacion(1)

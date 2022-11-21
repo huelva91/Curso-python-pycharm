@@ -19,7 +19,7 @@ class Sala_espera:
         self.paciente = []
 
 
-class Cosulta:
+class Consulta:
     def __init__(self, id, doctor):
         self.id = id
         self.doctor = doctor
