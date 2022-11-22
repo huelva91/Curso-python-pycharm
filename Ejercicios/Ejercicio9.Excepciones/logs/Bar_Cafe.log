@@ -1,0 +1,84 @@
+INFO:root:El camarero Camarero 1 ha servido una taza de Manchado a 60 grados
+INFO:root:El camarero Camarero 1 ha servido una taza de Americano a 64 grados
+INFO:root:El camarero Camarero 1 ha servido una taza de Cortado a 24 grados
+INFO:root:El cliente Cliente 1 se ha tomado un buen cafe a 24 grados
+INFO:root:El camarero Camarero 1 ha servido una taza de Cortado a 100 grados
+INFO:root:El cliente Cliente 1 ha comentado que esta muy caliente
+INFO:root:El camarero Camarero 1 ha servido una taza de Solo largo a 12 grados
+INFO:root:El cliente Cliente 1 ha comentado que esta frio
+ERROR:root:Cafe muy frio
+INFO:root:El camarero Camarero 1 ha servido una taza de Solo largo a 78 grados
+INFO:root:El cliente Cliente 1 ha comentado que esta muy caliente
+ERROR:root:Cafe muy caliente
+INFO:root:El camarero Camarero 1 ha servido una taza de Manchado a 99 grados
+INFO:root:El cliente Cliente 1 ha comentado que esta muy caliente
+ERROR:root:Cafe muy caliente
+INFO:root:El camarero Camarero 1 ha servido una taza de Cortado a 37 grados
+INFO:root:El cliente Cliente 1 se ha tomado un buen cafe a 37 grados
+INFO:root:El camarero Camarero 1 ha servido una taza de Cortado a 42 grados
+INFO:root:El cliente Cliente 1 se ha tomado un buen cafe a 42 grados
+INFO:root:El camarero Camarero 1 ha servido una taza de Solo largo a 4 grados
+INFO:root:El cliente Cliente 1 ha comentado que esta frio
+ERROR:root:Cafe muy frio
+INFO:root:El camarero Camarero 1 ha servido una taza de Manchado a 67 grados
+INFO:root:El cliente Cliente 1 se ha tomado un buen cafe a 67 grados
+INFO:root:El camarero Camarero 1 ha servido una taza de Americano a 13 grados
+INFO:root:El cliente Cliente 1 ha comentado que esta frio
+ERROR:root:Cafe muy frio
+INFO:root:El camarero Camarero 1 ha servido una taza de Solo largo a 1 grados
+INFO:root:El cliente Cliente 1 ha comentado que esta frio
+ERROR:root:Cafe muy frio
+INFO:root:El camarero Camarero 1 ha servido una taza de Solo largo a 44 grados
+INFO:root:El cliente Cliente 1 se ha tomado un buen cafe a 44 grados
+INFO:root:El camarero Camarero 1 ha servido una taza de Manchado a 62 grados
+INFO:root:El cliente Cliente 1 se ha tomado un buen cafe a 62 grados
+INFO:root:El camarero Camarero 1 ha servido una taza de Cortado a 76 grados
+INFO:root:El cliente Cliente 1 ha comentado que esta muy caliente
+ERROR:root:Cafe muy caliente
+INFO:root:El camarero Camarero 1 ha servido una taza de Manchado a 19 grados
+INFO:root:El cliente Cliente 1 ha comentado que esta frio
+ERROR:root:Cafe muy frio
+INFO:root:El camarero Camarero 1 ha servido una taza de Manchado a 32 grados
+INFO:root:El cliente Cliente 1 se ha tomado un buen cafe a 32 grados
+INFO:root:El camarero Camarero 1 ha servido una taza de Manchado a 19 grados
+INFO:root:El cliente Cliente 1 ha comentado que esta frio
+ERROR:root:Cafe muy frio
+INFO:root:El camarero Camarero 1 ha servido una taza de Cortado a 34 grados
+INFO:root:El cliente Cliente 1 se ha tomado un buen cafe a 34 grados
+INFO:root:El camarero Camarero 1 ha servido una taza de Cortado a 2 grados
+INFO:root:El cliente Cliente 1 ha comentado que esta frio
+ERROR:root:Cafe muy frio
+INFO:root:El camarero Camarero 1 ha servido una taza de Americano a 92 grados
+INFO:root:El cliente Cliente 1 ha comentado que esta muy caliente
+ERROR:root:Cafe muy caliente
+INFO:root:El camarero Camarero 1 ha servido una taza de Cortado a 46 grados
+INFO:root:El cliente Cliente 1 se ha tomado un buen cafe a 46 grados
+INFO:root:El camarero Camarero 1 ha servido una taza de Manchado a 30 grados
+INFO:root:El cliente Cliente 1 se ha tomado un buen cafe a 30 grados
+INFO:root:El camarero Camarero 1 ha servido una taza de Cortado a 30 grados
+INFO:root:El cliente Cliente 1 se ha tomado un buen cafe a 30 grados
+INFO:root:El camarero Camarero 1 ha servido una taza de Americano a 38 grados
+INFO:root:El cliente Cliente 1 se ha tomado un buen cafe a 38 grados
+11:18:03 AM: INFO [Clases.py:49] El camarero Camarero 1 ha servido una taza de Americano a 58 grados
+11:18:03 AM: INFO [Clases.py:69] El cliente Cliente 1 se ha tomado un buen cafe a 58 grados
+11:18:09 AM: INFO [Clases.py:49] El camarero Camarero 1 ha servido una taza de Solo largo a 71 grados
+11:18:09 AM: INFO [Clases.py:33] El cliente Cliente 1 ha comentado que esta muy caliente
+11:18:09 AM: ERROR [Clases.py:63] Cafe muy caliente
+11:18:13 AM: INFO [Clases.py:49] El camarero Camarero 1 ha servido una taza de Manchado a 12 grados
+11:18:13 AM: INFO [Clases.py:36] El cliente Cliente 1 ha comentado que esta frio
+11:18:13 AM: ERROR [Clases.py:65] Cafe muy frio
+11:18:15 AM: INFO [Clases.py:49] El camarero Camarero 1 ha servido una taza de Manchado a 48 grados
+11:18:15 AM: INFO [Clases.py:69] El cliente Cliente 1 se ha tomado un buen cafe a 48 grados
+11:18:16 AM: INFO [Clases.py:49] El camarero Camarero 1 ha servido una taza de Americano a 64 grados
+11:18:16 AM: INFO [Clases.py:69] El cliente Cliente 1 se ha tomado un buen cafe a 64 grados
+11:18:17 AM: INFO [Clases.py:49] El camarero Camarero 1 ha servido una taza de Cortado a 6 grados
+11:18:17 AM: INFO [Clases.py:36] El cliente Cliente 1 ha comentado que esta frio
+11:18:17 AM: ERROR [Clases.py:65] Cafe muy frio
+11:20:49 AM: INFO [Clases.py:49] El camarero Camarero 1 ha servido una taza de Cortado a 67 grados
+11:20:49 AM: INFO [Clases.py:69] El cliente Cliente 1 se ha tomado un buen cafe a 67 grados
+11:20:51 AM: INFO [Clases.py:49] El camarero Camarero 1 ha servido una taza de Americano a 4 grados
+11:20:51 AM: INFO [Clases.py:36] El cliente Cliente 1 ha comentado que esta frio
+11:20:51 AM: ERROR [Clases.py:65] Cafe muy frio
+11:20:58 AM: INFO [Clases.py:49] El camarero Camarero 1 ha servido una taza de Americano a 12 grados
+11:20:58 AM: INFO [Clases.py:36] El cliente Cliente 1 ha comentado que esta frio
+11:20:58 AM: ERROR [Clases.py:65] Cafe muy frio
