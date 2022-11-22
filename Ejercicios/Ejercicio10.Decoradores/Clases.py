@@ -67,8 +67,6 @@ class Tambor(Instrumento):
 
 
 class Orquesta:
-    def __init__(self):
-        pass
 
     def crear_orquesta(self):
         guitarra1 = Guitarra("Guitarra 1", "Cuerda", 6)
