@@ -4,13 +4,13 @@ class TemperaturaException(Exception):
         self.message = mensaje
 
 
-class TooHotTemperatureException(Exception):
+class TooHotTemperatureException(TemperaturaException):
 
     def __init__(self, mensaje):
-        self.message = mensaje
+        TemperaturaException.__init__(self, mensaje=mensaje)
 
 
-class TooColdTemperatureException(Exception):
+class TooColdTemperatureException(TemperaturaException):
 
     def __init__(self, mensaje):
-        self.message = mensaje
+        TemperaturaException.__init__(self, mensaje=mensaje)
