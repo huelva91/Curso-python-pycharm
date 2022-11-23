@@ -1,5 +1,5 @@
 import random
-from abc import ABC
+from abc import ABC, abstractmethod
 import logging as log
 import Excepciones as ex
 
@@ -13,10 +13,10 @@ log.basicConfig(level=log.INFO,
 
 
 class Instrumento(ABC):
-    def __init__(self, nombre, tipo, afinado=False):
+    def __init__(self, nombre, tipo):
         self._nombre = nombre
         self._tipo = tipo
-        self.afinado = afinado
+        self.afinado = False
 
     @property
     def nombre(self):
@@ -26,18 +26,22 @@ class Instrumento(ABC):
     def tipo(self):
         return self._tipo
 
+    @abstractmethod
     def afinar(self):
         numero_afinar_aleatorio = random.randint(0, 10)
-        if numero_afinar_aleatorio > 5:
+        if numero_afinar_aleatorio > 1:
             self.afinado = True
         else:
             self.afinado = False
 
+    @abstractmethod
     def tocar(self):
+        """"""
         if self.afinado == True:
             log.info("Tocando el instrumento {} y esta afinado".format(self.nombre))
         else:
-            raise ex.AfinadoException("El instrumento {} no esta afinado".format(self.nombre))
+            raise ex.AfinadoException("Un instrumento no esta afinado")
+
         self.afinar()
         self.tocar()
 
@@ -46,6 +50,9 @@ class Guitarra(Instrumento):
     def __init__(self, nombre, tipo, num_cuerdas):
         super().__init__(nombre, tipo)
         self._num_cuerdas = num_cuerdas
+
+    def afinar(self):
+        pass
 
 
 class Guitarra_electrica(Guitarra):
@@ -65,6 +72,9 @@ class Tambor(Instrumento):
         super().__init__(nombre, tipo)
         self._tamanio = tamanio
 
+    def aporrear(self):
+        pass
+
 
 class Orquesta:
 
@@ -78,7 +88,11 @@ class Orquesta:
 
     def iniciar_concierto(self, lista_instrumentos):
         for instrumento in lista_instrumentos:
-            instrumento.afinar()
+            try:
+                instrumento.afinar()
+            except:
+                ex.AfinadoException
+                log.info("El instrumento {} no esta afinado".format(instrumento.nombre))
             instrumento.tocar()
 
 
