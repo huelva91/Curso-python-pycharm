@@ -1,13 +1,14 @@
 import sys
 import MySQLdb
 import psycopg2
+from basededatos.utils.config_basedatos import *
 
 
 def get_mysql_conection():
     return get_conection()
 
 
-def get_conection(db="mysql", maquina="localhost", usuario="root", password="password", base_datos="curso_python",
+def get_conection(db=DB_MYSQL, maquina="localhost", usuario="root", password="password", base_datos="curso_python",
                   puerto=3306):
     try:
         if db == "mysql":
