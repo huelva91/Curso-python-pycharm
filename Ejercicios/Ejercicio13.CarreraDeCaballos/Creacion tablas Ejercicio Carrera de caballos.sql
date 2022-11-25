@@ -29,3 +29,5 @@ ADD CONSTRAINT `ID_GRANPREMIO`
   REFERENCES `curso_python`.`gran_premio` (`ID`)
   ON DELETE NO ACTION
   ON UPDATE NO ACTION;
+
+UPDATE `curso_python`.`gran_premio` SET `ID` = '%s', `NOMBRE` = '%s', `DISTANCIA` = '%s', `NUM_CARRERAS` = '%s' WHERE (`ID` = '%s');
