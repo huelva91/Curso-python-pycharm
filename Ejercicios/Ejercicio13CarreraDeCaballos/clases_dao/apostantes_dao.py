@@ -1,5 +1,5 @@
-from apostantes import Apostantes
-from conexiones import get_mysql_conection
+from Ejercicios.Ejercicio13CarreraDeCaballos.clases import Apostantes
+from Ejercicios.Ejercicio13CarreraDeCaballos.utils.conexiones import get_mysql_conection
 import logging as log
 
 class Apostantes_DAO:

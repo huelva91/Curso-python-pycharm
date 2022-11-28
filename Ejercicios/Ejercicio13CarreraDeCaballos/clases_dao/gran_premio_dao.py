@@ -1,5 +1,5 @@
-from ..clases.gran_premio import Gran_premio
-from ..utils.conexiones import get_mysql_conection
+from Ejercicios.Ejercicio13CarreraDeCaballos.clases import Gran_premio
+from Ejercicios.Ejercicio13CarreraDeCaballos.utils.conexiones import get_mysql_conection
 import logging as log
 
 class Gran_premio_DAO:

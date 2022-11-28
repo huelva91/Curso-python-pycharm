@@ -1,5 +1,5 @@
-from caballos import Caballos
-from conexiones import get_mysql_conection
+from Ejercicios.Ejercicio13CarreraDeCaballos.clases import Caballos
+from Ejercicios.Ejercicio13CarreraDeCaballos.utils.conexiones import get_mysql_conection
 import logging as log
 
 
